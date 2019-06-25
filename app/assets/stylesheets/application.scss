@@ -18,11 +18,6 @@ h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
 
-body {
-  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-
-}
-
 .navbar {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
@@ -65,4 +60,15 @@ body {
 
 .btn {
   border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('playstation-pattern.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
