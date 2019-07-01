@@ -28,8 +28,18 @@ h1, h2, h3, h4, h5, h6, .navbar {
   color: Blue;
 }
 
+.navbar-brand{
+  font-size: 20px;
+  font-weight:100;
+}
+
+.navbar-toggler-icon {
+ background-color: White;
+ border: solid 3px black
+}
+
 .navbar-inverse a.navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: 'Rubik Mono One', sans-serif;
   font-weight: 100;
   color: Blue;
 }
