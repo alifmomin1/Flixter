@@ -1,6 +1,6 @@
 class Instructor::LessonsController < ApplicationController
   before_action :authenticate_user!
-  before_action :require_authorized_for_current_section
+  before_action :require_authorized_for_current_section,only: [:show]
 
 
 
@@ -30,3 +30,4 @@ class Instructor::LessonsController < ApplicationController
     params.require(:lesson).permit(:title, :subtitle, :video)
   end
 end
+
